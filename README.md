@@ -2,10 +2,12 @@
 
 this is my repository for my personal notes
 
+First create the service
 ```
 kubectl create -f redis-svc.yaml
 ```
 
+And then next create deployment for primary pod and replicas pods
 ```
 kubectl create -f redis-deployment.yaml
 ```
